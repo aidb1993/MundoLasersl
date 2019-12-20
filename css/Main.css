@@ -4,6 +4,17 @@ body {
     font-family: 'Lato', sans-serif;
   }
 
+.header-img {
+  height: 300px;
+
+}
+
+.header-img img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
 /* NAVBAR */
 /* NavBar background */
 .bg-light {
@@ -173,7 +184,7 @@ body {
 
 /* Footer */
 footer {
-  height: 150px;
+  height: 200px;
   background-color: #312783;
 }
 
@@ -212,7 +223,7 @@ footer {
       }
 
       footer {
-        height: 120px;
+        height: 200px;
       }
   }
 
@@ -276,4 +287,10 @@ footer {
     100% {
       transform: translateX(0);
     }
+  }
+
+  .whatsapp {
+    color: white;
+    display: block;
+    padding-top: 20px;
   }
